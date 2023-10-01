@@ -6,7 +6,7 @@ use App\Core\CustomResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
-class AuthController extends Controller
+class Authcontroller extends Controller
 {
     public function login(Request $request)
     {
